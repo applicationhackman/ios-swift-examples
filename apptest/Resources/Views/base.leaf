@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    #import("head")
+   
+    <script type="text/javascript" src="http://chandra-1263.csez.zohocorpin.com:8844/thirdparty/jquery/dist/jquery.min.js"></script>   
+
+    <script type="text/javascript" src="http://localhost:8844/thirdparty/tether/dist/js/tether.min.js"></script>   
+
+    <script type="text/javascript" src="http://localhost:8844/thirdparty/bootstrap4/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8844/thirdparty/bootstrap4/css/bootstrap-reboot.min.css">
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8844/thirdparty/tether/dist/css/tether.min.css">  
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8844/thirdparty/bootstrap4/css/bootstrap.min.css">  
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8844/thirdparty/bootstrap4/css/bootstrap-grid.min.css">  
+
+    <link rel="stylesheet" type="text/css" href="http://chandra-1263.csez.zohocorpin.com:8844/thirdparty/apps/apptest/style/common.css">  
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+    
+     
+</head>
+    <body>
+
+         <nav class="navbar apptest">            
+          
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="navbar-brand applogo"></div>    
+              </div>
+              <div class="col-md-4 offset-md-4 fx jend">
+                    <div class="usericon"></div> 
+              </div>
+            </div>  
+        </nav>
+
+        <div class="container   fh">  
+
+            <div class="dummy-row">
+
+            </div>      
+
+
+            <div class="row"> 
+
+                <div class="col-3 mr80"> 
+
+                    <ul class="nav flex-column">
+                      <li class="nav-item fx apptest active">
+                        <div class="projecticon"></div>    
+                        <a class="nav-link active">Projects</a>
+                      </li>
+                      <li class="nav-item fx apptest">
+                        <div class="experimenticon"></div>    
+                        <a class="nav-link">Experiments</a>
+                      </li>
+                     
+                    </ul>
+
+                </div>  
+  
+                <div class="col-8">
+                  
+                  #import("body")     
+                </div>
+
+                <div class="col-2">
+                </div>
+            </div>
+                    
+        </div>  
+        
+    </body>
+    <script type="text/javascript" src="http://localhost:8844/thirdparty/apps/apptest/js/projects.js"></script> 
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    #import("head")
+   
+    <script type="text/javascript" src="http://chandra-1263.csez.zohocorpin.com:8844/thirdparty/jquery/dist/jquery.min.js"></script>   
+    <script type="text/javascript" src="http://chandra-1263.csez.zohocorpin.com:8844/thirdparty/uikit/uikit/js/uikit.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://chandra-1263.csez.zohocorpin.com:8844/thirdparty/uikit/uikit/css/uikit.css"> 
+    <link rel="stylesheet" type="text/css" href="http://chandra-1263.csez.zohocorpin.com:8844/thirdparty/apps/apptest/style/common.css"> 
+
+    
+    
+</head>
+    <body>
+
+    	<nav class="uk-navbar">
+		    <ul class="uk-navbar-nav"> 
+		        <li><a href="">APPTEST</a></li>
+		    </ul>
+		</nav>
+
+		<div class="uk-width-1-1">			
+		</div>
+
+       <form class="uk-form"> 
+		    <fieldset class="fx -cl">
+		        <input type="text" placeholder="Email" class="ui-inbox">
+		        <input type="password" placeholder="password" class="ui-inbox">
+		    </fieldset>
+		    <fieldset> 
+		    	<button class="uk-button uk-button-primary" type="button">Signup</button>
+		    	<button class="uk-button" type="button">Login</button>
+		    </fieldset>
+		</form>
+
+    </body>
+</html>
+
+
+
+
+	

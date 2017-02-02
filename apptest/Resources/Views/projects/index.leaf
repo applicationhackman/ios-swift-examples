@@ -1,0 +1,86 @@
+#extend("base")
+
+
+
+#export("body") {
+
+    <div class="row info-bar">
+
+        <div class="col-sm-8">
+            <h2>Projects</h2> 
+        </div>
+        <div class="col-sm-4 fx jend">
+            <button id="newProjectBtn" type="button" class="btn btn-primary" data-toggle="modal">
+                CREATE 
+            </button> 
+        </div>
+
+    </div>        
+
+    <div class="list-group">
+
+
+        #loop(projects, "project") {
+                     
+        <a class="list-group-item apptest list-group-item-action flex-column align-items-start">
+
+            <div class="d-flex w-100 justify-content-between">                  
+                 <div class="row no-gutters fw"> 
+                    <div class="icon-box"> 
+                        <div class="abtesticon"></div> </div>  
+                    <div class="col-12 col-sm-6 col-md-8">
+                         <h5 class="mb-1"> #(project.name) </h5>        
+                         <small>3 days ago</small>
+                    </div>                    
+                  </div>
+                  
+            </div>   
+
+        </a>       
+
+        }
+         
+    </div>
+
+
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content project-mod-cont">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">New Project</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+
+          <form action="/projects" method="post">
+
+
+            <div class="form-group"> 
+                <label for="inProjectName">Name</label>
+                <input type="text" class="form-control" id="inProjectName" placeholder="Project name" name="name">
+            </div> 
+
+            <div class="form-group">
+                <label for="inProjectName">Description</label>
+                <input type="text" class="form-control" id="inProjectName" placeholder="Project Description" name="description">
+            </div> 
+
+
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input class="btn btn-primary" type="submit" value="Create">
+            </div>  
+ 
+          </form>
+          
+
+        </div>
+      </div>
+    </div>
+
+}
